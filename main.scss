@@ -1,0 +1,34 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+$primary: white;
+
+// Include any default variable overrides here (though functions won't be available)
+
+//@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../zkouskaBS/node_modules/bootstrap/scss/bootstrap";
+
+.home-page {
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+h1,
+h3 {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: bold;
+}
+.reservation {
+  box-sizing: content-box;
+  width: 50%;
+  height: 50%;
+}
+.history1 {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: bold;
+}
+.history2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
